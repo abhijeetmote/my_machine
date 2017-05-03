@@ -1,3 +1,7 @@
+# Write below line in crontab config
+# 1 * * * * * bash -x /home/abhijeet/Desktop/my_health.sh 2 > ab.log
+ 
+
 tm=`date +"%H%M"`
 echo $tm
 if [ $(($tm%100)) -eq 0 ];then
