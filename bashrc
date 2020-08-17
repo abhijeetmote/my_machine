@@ -16,5 +16,5 @@ bind '"\e[B": history-search-forward'
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 # enable syntax highlighting
 
-alias ls ="ls -larth"
-alias l ="ls -larth"
+alias ls="ls -larth"
+alias l="ls -larth"
